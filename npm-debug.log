@@ -2,44 +2,42 @@
 1 verbose cli [ '/usr/local/Cellar/node/5.0.0/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
 1 verbose cli   'run',
-1 verbose cli   'publish' ]
+1 verbose cli   'prepare' ]
 2 info using npm@3.3.9
 3 info using node@v5.0.0
-4 verbose run-script [ 'prepublish', 'publish', 'postpublish' ]
-5 info lifecycle shower@2.1.1~prepublish: shower@2.1.1
-6 silly lifecycle shower@2.1.1~prepublish: no script for prepublish, continuing
-7 info lifecycle shower@2.1.1~publish: shower@2.1.1
-8 verbose lifecycle shower@2.1.1~publish: unsafe-perm in lifecycle true
-9 verbose lifecycle shower@2.1.1~publish: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/szupingwang/Documents/cnyes/slide/2016-survey-api-firebase-realtime-db/node_modules/.bin:/Users/szupingwang/.rvm/gems/ruby-2.1.2/bin:/Users/szupingwang/.rvm/gems/ruby-2.1.2@global/bin:/Users/szupingwang/.rvm/rubies/ruby-2.1.2/bin:/Users/szupingwang/google-cloud-sdk/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/szupingwang/.rvm/bin
-10 verbose lifecycle shower@2.1.1~publish: CWD: /Users/szupingwang/Documents/cnyes/slide/2016-survey-api-firebase-realtime-db
-11 silly lifecycle shower@2.1.1~publish: Args: [ '-c', 'gulp publish' ]
-12 silly lifecycle shower@2.1.1~publish: Returned: code: 1  signal: null
-13 info lifecycle shower@2.1.1~publish: Failed to exec publish script
-14 verbose stack Error: shower@2.1.1 publish: `gulp publish`
-14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
-14 verbose stack     at emitTwo (events.js:87:13)
-14 verbose stack     at EventEmitter.emit (events.js:172:7)
-14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
-14 verbose stack     at emitTwo (events.js:87:13)
-14 verbose stack     at ChildProcess.emit (events.js:172:7)
-14 verbose stack     at maybeClose (internal/child_process.js:818:16)
-14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
-15 verbose pkgid shower@2.1.1
-16 verbose cwd /Users/szupingwang/Documents/cnyes/slide/2016-survey-api-firebase-realtime-db
-17 error Darwin 14.5.0
-18 error argv "/usr/local/Cellar/node/5.0.0/bin/node" "/usr/local/bin/npm" "run" "publish"
-19 error node v5.0.0
-20 error npm  v3.3.9
-21 error code ELIFECYCLE
-22 error shower@2.1.1 publish: `gulp publish`
-22 error Exit status 1
-23 error Failed at the shower@2.1.1 publish script 'gulp publish'.
-23 error This is most likely a problem with the shower package,
-23 error not with npm itself.
-23 error Tell the author that this fails on your system:
-23 error     gulp publish
-23 error You can get their info via:
-23 error     npm owner ls shower
-23 error There is likely additional logging output above.
-24 verbose exit [ 1, true ]
+4 verbose run-script [ 'prepare' ]
+5 info lifecycle shower@2.1.1~prepare: shower@2.1.1
+6 verbose lifecycle shower@2.1.1~prepare: unsafe-perm in lifecycle true
+7 verbose lifecycle shower@2.1.1~prepare: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/szupingwang/Documents/cnyes/slide/2016-survey-api-firebase-realtime-db/node_modules/.bin:/Users/szupingwang/.rvm/gems/ruby-2.1.2/bin:/Users/szupingwang/.rvm/gems/ruby-2.1.2@global/bin:/Users/szupingwang/.rvm/rubies/ruby-2.1.2/bin:/Users/szupingwang/google-cloud-sdk/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/szupingwang/.rvm/bin
+8 verbose lifecycle shower@2.1.1~prepare: CWD: /Users/szupingwang/Documents/cnyes/slide/2016-survey-api-firebase-realtime-db
+9 silly lifecycle shower@2.1.1~prepare: Args: [ '-c', 'gulp prepare' ]
+10 silly lifecycle shower@2.1.1~prepare: Returned: code: 1  signal: null
+11 info lifecycle shower@2.1.1~prepare: Failed to exec prepare script
+12 verbose stack Error: shower@2.1.1 prepare: `gulp prepare`
+12 verbose stack Exit status 1
+12 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
+12 verbose stack     at emitTwo (events.js:87:13)
+12 verbose stack     at EventEmitter.emit (events.js:172:7)
+12 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+12 verbose stack     at emitTwo (events.js:87:13)
+12 verbose stack     at ChildProcess.emit (events.js:172:7)
+12 verbose stack     at maybeClose (internal/child_process.js:818:16)
+12 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+13 verbose pkgid shower@2.1.1
+14 verbose cwd /Users/szupingwang/Documents/cnyes/slide/2016-survey-api-firebase-realtime-db
+15 error Darwin 14.5.0
+16 error argv "/usr/local/Cellar/node/5.0.0/bin/node" "/usr/local/bin/npm" "run" "prepare"
+17 error node v5.0.0
+18 error npm  v3.3.9
+19 error code ELIFECYCLE
+20 error shower@2.1.1 prepare: `gulp prepare`
+20 error Exit status 1
+21 error Failed at the shower@2.1.1 prepare script 'gulp prepare'.
+21 error This is most likely a problem with the shower package,
+21 error not with npm itself.
+21 error Tell the author that this fails on your system:
+21 error     gulp prepare
+21 error You can get their info via:
+21 error     npm owner ls shower
+21 error There is likely additional logging output above.
+22 verbose exit [ 1, true ]
